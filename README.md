@@ -22,7 +22,7 @@ $ python flask_server.py
 
 ## send request
 
-- data request url : POST `https://localhost:5000/process-ocr`
+- data request url : POST `http://localhost:5000/process-ocr`
 - Content-Type : application/json
 - Body : {"imageUrl" : "<imageurl>"}
 - Response
